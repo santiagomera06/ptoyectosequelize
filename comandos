@@ -1,0 +1,10 @@
+comandos 
+npm init -y
+npm install express  sequelize sequelize-cli mysql2 dotenv
+npm install nodemon
+npx sequelize-cli init
+npx sequelize-cli model:generate --name Usuario --attributes nombre:string,correo:string,contrasena:string
+npx sequelize-cli db:migrate
+en packege-json cambiar "scripts": 
+    "start": "nodemon index.js",
+    y a "main": "server.js",
