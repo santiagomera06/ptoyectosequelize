@@ -8,3 +8,4 @@ npx sequelize-cli db:migrate
 en packege-json cambiar "scripts": 
     "start": "nodemon index.js",
     y a "main": "server.js",
+creado por mi
